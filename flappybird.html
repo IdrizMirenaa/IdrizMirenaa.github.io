@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Toto Bird & Playing</title>
+        <meta name="viewport" content="width=320, user-scalable=no">
+        <link rel = "icon" href = "logo/ylogo.jpg"type = "image/x-icon">
+        <script src="func/flappybird.js"></script>
+    </head>
+    <body>
+        <style>
+            body {
+    background-image: url("fpImage/bg.png");
+    background-color:aqua;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    overflow:hidden;
+}
+
+#board {
+    border: 3px;
+    /* background-color: skyblue; */
+    background-image: url("fpImage/flappybirdbg.png");
+}
+html {
+    touch-action: manipulation;
+  }
+
+  /* Bllokoja zoom-in */
+@media screen and (max-width: 768px) {
+    body {
+      zoom: 100%;
+    }
+  }
+  /* Bllokoja zoom-out */
+  @media screen and (min-width: 768px) {
+    body {
+      zoom: 100%;
+    }
+  }
+  
+        </style>
+        <!--<h3 style="background-color: rgba(214, 204, 219, 0); color: rgb(241, 146, 37);">&copy; 2023 Copyright Idriz Mirena</h3>-->
+        <canvas id="board"></canvas>
+    </body>
+</html>

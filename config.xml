@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<widget
+    android-versionCode = '1'
+    id = 'com.TotoBird.TotoBird'
+    version = '1.0.0'
+    xmlns = 'https://www.w3.org/ns/widgets'>
+
+    <name>TotoBird</name>
+    <description>Play Toto Bird for free </description>
+    <author>TotoBird</author>
+    <icon src="client.png"/>
+
+    <preference name = 'orientation' value = 'portrait'/>
+
+</widget>
