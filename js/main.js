@@ -344,7 +344,7 @@ function detectPillCollision() {
   if (allPillsAreGone) {
     canvasContext.font = "40px Arial";
     canvasContext.fillStyle = "red";
-    canvasContext.fillText("Ti je shume i fort!", 50, 270);
+    canvasContext.fillText("Ti je shume i fort!", 100, 270);
     clearInterval(gameLoop);
   }
 }
