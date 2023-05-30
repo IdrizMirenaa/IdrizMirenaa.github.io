@@ -344,7 +344,7 @@ function detectPillCollision() {
   if (allPillsAreGone) {
     canvasContext.font = "40px Arial";
     canvasContext.fillStyle = "red";
-    canvasContext.fillText("Ti je shume i fort!", 30, 270);
+    canvasContext.fillText("Ti je shume i fort!", 50, 270);
     clearInterval(gameLoop);
   }
 }
@@ -410,7 +410,7 @@ function detectGhostPacmanCollision() {
       } else {
         canvasContext.font = "80px Arial";
         canvasContext.fillStyle = "red";
-        canvasContext.fillText("Ki humbur!", 90, 270);
+        canvasContext.fillText("Ke humbur!", 90, 270);
         clearInterval(gameLoop);
       }
     }
