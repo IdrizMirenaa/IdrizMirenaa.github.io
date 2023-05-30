@@ -1,6 +1,6 @@
-var blockSize = 22;
-var rows = 22;
-var cols = 22;
+var blockSize = 20;
+var rows = 20;
+var cols = 20;
 var board;
 var context; 
 
